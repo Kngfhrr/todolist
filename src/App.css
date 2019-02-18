@@ -1,0 +1,104 @@
+.bg {
+  height: 700px;
+  width: 1549px;
+  position: absolute;
+}
+.inputadd {
+
+ font-size: 20px;
+ border-radius: 10px;
+ height: 35px;
+ width: 300px;
+ outline: none;
+ padding-top: 5px;
+ background: rgba(167, 168, 167, 0.24);
+ padding-left: 5px;
+ border: none;
+}
+.buttonadd {
+  font-size: 25px;
+  height: 40px;
+ width: 40px;
+  border-radius: 50%;
+  color: white;
+  margin: 10px;
+  outline: none;
+  border: none;
+  background: rgba(2, 0, 0, 0.363); 
+}
+.buttonadd:hover {
+  color: #fff;
+  background: rgba(35, 212, 124, 0.596);
+  transition: 3s ;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s ; 
+}
+.buttondel {
+
+ 
+  margin: 10px;
+  color: rgb(7, 1, 1);
+  border-radius: 50%;
+  border: none;
+  height: 20px;
+  width: 20px;
+  outline: none;
+  line-height: 4px;
+  padding-bottom: 3px;
+  background: rgba(0, 0, 0, 0.24);
+}
+  .buttondel:hover {
+    color: #fff;
+    background: rgba(211, 5, 67, 0.596);
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    cursor: pointer;
+  }
+  
+
+.todo {
+
+  position: relative;
+  
+  margin: 1px;
+}
+.todo:checked + div{
+  text-decoration:line-through;
+}
+
+.position {
+ position: absolute;
+  left: 550px;
+  top: 100px;
+}
+.test {
+  position: relative;
+  height: 16px;
+  width: 16px;
+  top: 3px;
+  right: 10px;;
+}
+.form {
+  background: rgba(3, 5, 4, 0.24);
+  border-radius: 5px;
+  width: 400px;
+  height: 500px;
+padding: 40px;
+position: relative;
+left: 480px;
+top: 80px;
+}
+.title {
+  left: 80px;
+  position: relative;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+.check {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  top: 6px;
+  cursor: pointer;
+}
